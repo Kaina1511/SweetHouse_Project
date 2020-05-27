@@ -40,7 +40,7 @@
             this.textBoxAdres = new System.Windows.Forms.TextBox();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.label = new System.Windows.Forms.Label();
-            this.labelФИО = new System.Windows.Forms.Label();
+            this.labelФио = new System.Windows.Forms.Label();
             this.labelАдрес = new System.Windows.Forms.Label();
             this.labelТелефон = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -147,14 +147,14 @@
             this.label.TabIndex = 6;
             this.label.Text = "Список клиентов";
             // 
-            // labelФИО
+            // labelФио
             // 
-            this.labelФИО.AutoSize = true;
-            this.labelФИО.Location = new System.Drawing.Point(14, 23);
-            this.labelФИО.Name = "labelФИО";
-            this.labelФИО.Size = new System.Drawing.Size(33, 14);
-            this.labelФИО.TabIndex = 7;
-            this.labelФИО.Text = "ФИО";
+            this.labelФио.AutoSize = true;
+            this.labelФио.Location = new System.Drawing.Point(14, 23);
+            this.labelФио.Name = "labelФио";
+            this.labelФио.Size = new System.Drawing.Size(33, 14);
+            this.labelФио.TabIndex = 7;
+            this.labelФио.Text = "ФИО";
             // 
             // labelАдрес
             // 
@@ -207,7 +207,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.labelТелефон);
             this.Controls.Add(this.labelАдрес);
-            this.Controls.Add(this.labelФИО);
+            this.Controls.Add(this.labelФио);
             this.Controls.Add(this.label);
             this.Controls.Add(this.textBoxPhone);
             this.Controls.Add(this.textBoxAdres);
@@ -234,7 +234,7 @@
         private System.Windows.Forms.TextBox textBoxAdres;
         private System.Windows.Forms.TextBox textBoxPhone;
         private System.Windows.Forms.Label label;
-        private System.Windows.Forms.Label labelФИО;
+        private System.Windows.Forms.Label labelФио;
         private System.Windows.Forms.Label labelАдрес;
         private System.Windows.Forms.Label labelТелефон;
         private System.Windows.Forms.ColumnHeader columnHeader1;
