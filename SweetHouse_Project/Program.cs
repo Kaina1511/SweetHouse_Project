@@ -8,6 +8,14 @@ namespace SweetHouse_Project
 {
     static class Program
     {
+        public struct User
+        {
+            public string login;
+            public string password;
+            public string type;
+        }
+
+        public static SweetHouseEntities21 shDb = new SweetHouseEntities21(); 
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +24,7 @@ namespace SweetHouse_Project
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormAuthorization());
         }
     }
 }
